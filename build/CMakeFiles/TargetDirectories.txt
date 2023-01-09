@@ -1,0 +1,3 @@
+/home/fady/IMAC2/Game_elliptique/build/CMakeFiles/rebuild_cache.dir
+/home/fady/IMAC2/Game_elliptique/build/CMakeFiles/edit_cache.dir
+/home/fady/IMAC2/Game_elliptique/build/CMakeFiles/Cpp_SDL_Program.dir
