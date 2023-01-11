@@ -12,6 +12,8 @@ void draw(SDL_Renderer* renderer)
     ); 
     */
    
+
+   
 }
 
 bool handleEvent()

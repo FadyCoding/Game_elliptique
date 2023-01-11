@@ -21,6 +21,8 @@ SDL2/SDL.h
 -
 string
 -
+cmath
+-
 
 /home/fady/IMAC2/Game_elliptique/src/main.cpp
 application_ui.h
