@@ -60,8 +60,8 @@ int main(int argc, char** argv) {
         SDL_RenderClear(renderer);
         
         // DESSIN
-        draw(renderer);
-
+        Ellipse<int> ellipse(320, 240, 100, 50);
+        ellipse.render(renderer);
         // VALIDATION FRAME
         SDL_RenderPresent(renderer);
 
