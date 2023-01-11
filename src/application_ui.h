@@ -1,8 +1,8 @@
 #ifndef APPLICATION_UI_H
 #define APPLICATION_UI_H
-#include <SDL2/SDL.h>
+#include <SDL2/SDL.h> //SDL functions
 #include <string>
-#include <cmath>
+#include <cmath> // M_PI / cos / sin
 
 extern const int SCREEN_WIDTH, SCREEN_HEIGHT;
 
@@ -19,7 +19,8 @@ class Ellipse {
         T r_x, r_y;                  //radius on x and y
 
         //color parameters
-        Uint8 r, g, b, a;             //colors components
+        SDL_Color color; 
+
     //methods
     public:
         //calcul of the ellipse perimeter //int perimeter(double r1, double r2){return 2 * M_PI * std::sqrt((r1 * r1 + r2 * r2) / 2);}
@@ -33,7 +34,7 @@ class Ellipse {
 
         //Default constructor
         ~Ellipse();
-
+        
         //Setters
         void setX(T x);
         void setY(T y);
@@ -48,6 +49,8 @@ class Ellipse {
         T getR_x() { return r_x; };
         T getR_y() { return r_y; };
         
+        //methods
+        void draw_Ellipse(SDL_Renderer* renderer, T x, T y, T r_x, T r_y);
 
 };
 
@@ -60,6 +63,16 @@ class Ellipse {
         SDL_RenderDrawLine(renderer, x, y, x2, y2);
     }
 } */
+
+template <typename T>
+void Ellipse<T>::draw_Ellipse(SDL_Renderer* renderer, T x, T y, T r_x, T r_y){
+    int x2, y2;
+    for (double i = 0; i < 2 * M_PI; i += 0.1) {
+        x2 = x + r_x * cos(i); 
+        y2 = y + r_y * sin(i);
+    SDL_RenderDrawLine(renderer, x, y, x2, y2);
+    }
+}
 
 
 #endif
