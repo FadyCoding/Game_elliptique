@@ -70,22 +70,9 @@ CMakeFiles/Cpp_SDL_Program.dir/src/SDL2_gfxPrimitives.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Cpp_SDL_Program.dir/src/SDL2_gfxPrimitives.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fady/IMAC2/Game_elliptique/src/SDL2_gfxPrimitives.c -o CMakeFiles/Cpp_SDL_Program.dir/src/SDL2_gfxPrimitives.c.s
 
-CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.o: CMakeFiles/Cpp_SDL_Program.dir/flags.make
-CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.o: ../src/application_ui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fady/IMAC2/Game_elliptique/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.o -c /home/fady/IMAC2/Game_elliptique/src/application_ui.cpp
-
-CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fady/IMAC2/Game_elliptique/src/application_ui.cpp > CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.i
-
-CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fady/IMAC2/Game_elliptique/src/application_ui.cpp -o CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.s
-
 CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o: CMakeFiles/Cpp_SDL_Program.dir/flags.make
 CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fady/IMAC2/Game_elliptique/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fady/IMAC2/Game_elliptique/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o -c /home/fady/IMAC2/Game_elliptique/src/main.cpp
 
 CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.i: cmake_force
@@ -99,18 +86,16 @@ CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.s: cmake_force
 # Object files for target Cpp_SDL_Program
 Cpp_SDL_Program_OBJECTS = \
 "CMakeFiles/Cpp_SDL_Program.dir/src/SDL2_gfxPrimitives.c.o" \
-"CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.o" \
 "CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o"
 
 # External object files for target Cpp_SDL_Program
 Cpp_SDL_Program_EXTERNAL_OBJECTS =
 
 ../bin/Debug/Cpp_SDL_Program: CMakeFiles/Cpp_SDL_Program.dir/src/SDL2_gfxPrimitives.c.o
-../bin/Debug/Cpp_SDL_Program: CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.o
 ../bin/Debug/Cpp_SDL_Program: CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o
 ../bin/Debug/Cpp_SDL_Program: CMakeFiles/Cpp_SDL_Program.dir/build.make
 ../bin/Debug/Cpp_SDL_Program: CMakeFiles/Cpp_SDL_Program.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fady/IMAC2/Game_elliptique/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../bin/Debug/Cpp_SDL_Program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fady/IMAC2/Game_elliptique/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/Debug/Cpp_SDL_Program"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Cpp_SDL_Program.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -E copy_directory /home/fady/IMAC2/Game_elliptique/resources /home/fady/IMAC2/Game_elliptique/bin/Debug/resources
 

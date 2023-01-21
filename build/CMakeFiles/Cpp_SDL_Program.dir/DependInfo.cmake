@@ -15,7 +15,6 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/include/SDL2"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/fady/IMAC2/Game_elliptique/src/application_ui.cpp" "/home/fady/IMAC2/Game_elliptique/build/CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.o"
   "/home/fady/IMAC2/Game_elliptique/src/main.cpp" "/home/fady/IMAC2/Game_elliptique/build/CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

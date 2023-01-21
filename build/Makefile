@@ -151,33 +151,6 @@ src/SDL2_gfxPrimitives.c.s:
 	$(MAKE) -f CMakeFiles/Cpp_SDL_Program.dir/build.make CMakeFiles/Cpp_SDL_Program.dir/src/SDL2_gfxPrimitives.c.s
 .PHONY : src/SDL2_gfxPrimitives.c.s
 
-src/application_ui.o: src/application_ui.cpp.o
-
-.PHONY : src/application_ui.o
-
-# target to build an object file
-src/application_ui.cpp.o:
-	$(MAKE) -f CMakeFiles/Cpp_SDL_Program.dir/build.make CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.o
-.PHONY : src/application_ui.cpp.o
-
-src/application_ui.i: src/application_ui.cpp.i
-
-.PHONY : src/application_ui.i
-
-# target to preprocess a source file
-src/application_ui.cpp.i:
-	$(MAKE) -f CMakeFiles/Cpp_SDL_Program.dir/build.make CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.i
-.PHONY : src/application_ui.cpp.i
-
-src/application_ui.s: src/application_ui.cpp.s
-
-.PHONY : src/application_ui.s
-
-# target to generate assembly for a file
-src/application_ui.cpp.s:
-	$(MAKE) -f CMakeFiles/Cpp_SDL_Program.dir/build.make CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.s
-.PHONY : src/application_ui.cpp.s
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -217,9 +190,6 @@ help:
 	@echo "... src/SDL2_gfxPrimitives.o"
 	@echo "... src/SDL2_gfxPrimitives.i"
 	@echo "... src/SDL2_gfxPrimitives.s"
-	@echo "... src/application_ui.o"
-	@echo "... src/application_ui.i"
-	@echo "... src/application_ui.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

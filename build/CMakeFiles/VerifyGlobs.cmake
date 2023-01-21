@@ -7,8 +7,6 @@ set(OLD_GLOB
   "/home/fady/IMAC2/Game_elliptique/src/Game.h"
   "/home/fady/IMAC2/Game_elliptique/src/SDL2_gfxPrimitives.c"
   "/home/fady/IMAC2/Game_elliptique/src/SDL2_gfxPrimitives.h"
-  "/home/fady/IMAC2/Game_elliptique/src/application_ui.cpp"
-  "/home/fady/IMAC2/Game_elliptique/src/application_ui.h"
   "/home/fady/IMAC2/Game_elliptique/src/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

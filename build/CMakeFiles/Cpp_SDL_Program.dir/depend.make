@@ -49,12 +49,8 @@ CMakeFiles/Cpp_SDL_Program.dir/src/SDL2_gfxPrimitives.c.o: /usr/include/SDL2/SDL
 CMakeFiles/Cpp_SDL_Program.dir/src/SDL2_gfxPrimitives.c.o: /usr/include/SDL2/begin_code.h
 CMakeFiles/Cpp_SDL_Program.dir/src/SDL2_gfxPrimitives.c.o: /usr/include/SDL2/close_code.h
 
-CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.o: ../src/application_ui.cpp
-CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.o: ../src/application_ui.h
-
 CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o: ../src/Game.h
 CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o: ../src/SDL2_gfxPrimitives.h
-CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o: ../src/application_ui.h
 CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o: /usr/include/SDL2/SDL.h
 CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o: /usr/include/SDL2/SDL_assert.h

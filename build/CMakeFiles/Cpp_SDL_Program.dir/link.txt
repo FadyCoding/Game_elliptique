@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Cpp_SDL_Program.dir/src/SDL2_gfxPrimitives.c.o CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.o CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o  -o ../bin/Debug/Cpp_SDL_Program  -lSDL2 
+/usr/bin/c++  -g   CMakeFiles/Cpp_SDL_Program.dir/src/SDL2_gfxPrimitives.c.o CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o  -o ../bin/Debug/Cpp_SDL_Program  -lSDL2 

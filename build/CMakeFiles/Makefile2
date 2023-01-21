@@ -74,12 +74,12 @@ clean: CMakeFiles/Cpp_SDL_Program.dir/clean
 CMakeFiles/Cpp_SDL_Program.dir/all:
 	$(MAKE) -f CMakeFiles/Cpp_SDL_Program.dir/build.make CMakeFiles/Cpp_SDL_Program.dir/depend
 	$(MAKE) -f CMakeFiles/Cpp_SDL_Program.dir/build.make CMakeFiles/Cpp_SDL_Program.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fady/IMAC2/Game_elliptique/build/CMakeFiles --progress-num=1,2,3,4 "Built target Cpp_SDL_Program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fady/IMAC2/Game_elliptique/build/CMakeFiles --progress-num=1,2,3 "Built target Cpp_SDL_Program"
 .PHONY : CMakeFiles/Cpp_SDL_Program.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Cpp_SDL_Program.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fady/IMAC2/Game_elliptique/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fady/IMAC2/Game_elliptique/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Cpp_SDL_Program.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/fady/IMAC2/Game_elliptique/build/CMakeFiles 0
 .PHONY : CMakeFiles/Cpp_SDL_Program.dir/rule

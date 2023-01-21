@@ -1,4 +1,3 @@
-#include "application_ui.h"
 #include "Game.h"
 #include "SDL2_gfxPrimitives.h"
 
@@ -83,7 +82,7 @@ int main(int argc, char* argv[]) {
     while (game.running) {
         game.handleEvents();
         game.update();
-        game.render();
+        game.draw();
     }
 
     game.clean();

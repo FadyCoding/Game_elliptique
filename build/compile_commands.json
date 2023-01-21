@@ -6,11 +6,6 @@
 },
 {
   "directory": "/home/fady/IMAC2/Game_elliptique/build",
-  "command": "/usr/bin/c++   -I/home/fady/IMAC2/Game_elliptique/src -I/usr/include/SDL2  -g   -Wall -Wextra -Wpedantic -std=c++17 -o CMakeFiles/Cpp_SDL_Program.dir/src/application_ui.cpp.o -c /home/fady/IMAC2/Game_elliptique/src/application_ui.cpp",
-  "file": "/home/fady/IMAC2/Game_elliptique/src/application_ui.cpp"
-},
-{
-  "directory": "/home/fady/IMAC2/Game_elliptique/build",
   "command": "/usr/bin/c++   -I/home/fady/IMAC2/Game_elliptique/src -I/usr/include/SDL2  -g   -Wall -Wextra -Wpedantic -std=c++17 -o CMakeFiles/Cpp_SDL_Program.dir/src/main.cpp.o -c /home/fady/IMAC2/Game_elliptique/src/main.cpp",
   "file": "/home/fady/IMAC2/Game_elliptique/src/main.cpp"
 }
