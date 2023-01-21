@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/home/fady/IMAC2/Game_elliptique/src/Game.h
+iostream
+/home/fady/IMAC2/Game_elliptique/src/iostream
+SDL2/SDL.h
+-
+
 /home/fady/IMAC2/Game_elliptique/src/SDL2_gfxPrimitives.h
 math.h
 -
 SDL.h
 /home/fady/IMAC2/Game_elliptique/src/SDL.h
-
-/home/fady/IMAC2/Game_elliptique/src/application_ui.cpp
-application_ui.h
-/home/fady/IMAC2/Game_elliptique/src/application_ui.h
 
 /home/fady/IMAC2/Game_elliptique/src/application_ui.h
 SDL2/SDL.h
@@ -27,6 +29,8 @@ cmath
 /home/fady/IMAC2/Game_elliptique/src/main.cpp
 application_ui.h
 /home/fady/IMAC2/Game_elliptique/src/application_ui.h
+Game.h
+/home/fady/IMAC2/Game_elliptique/src/Game.h
 SDL2_gfxPrimitives.h
 /home/fady/IMAC2/Game_elliptique/src/SDL2_gfxPrimitives.h
 

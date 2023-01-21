@@ -10,13 +10,12 @@ SDL_Window* init(std::string windowTitle);
 SDL_Surface* loadMedia(std::string path);
 void close(SDL_Window* gWindow, SDL_Renderer* renderer);
 
-template<typename T>
 class Ellipse {
     //parameters
     private:
         //position parameters
-        T x, y;                       //x and y position
-        T r_x, r_y;                  //radius on x and y
+        int x, y;                       //x and y position
+        int r_x, r_y;                  //radius on x and y
 
         //color parameters
         Uint8 r, g ,b, a;  
@@ -30,37 +29,28 @@ class Ellipse {
         Ellipse() {};
 
         //Constructor with parameters
-        Ellipse(T x, T y, T r_x, T r_y);
+        Ellipse(int x, int y, int r_x, int r_y, Uint8 r, Uint8 g, Uint8 b, Uint8 a);
 
         //Default constructor
         ~Ellipse();
 
         //methods
-        void draw_Ellipse(SDL_Renderer* renderer, T x, T y, T r_x, T r_y); 
+        //void draw_Ellipse(SDL_Renderer* renderer, int x, int y, int r_x, int r_y); 
 
-        void render(SDL_Renderer *renderer){SDL_SetRenderDrawColor(renderer, r, g, b, a); draw_Ellipse(renderer, x, y, r_x, r_y);};
+        //void render(SDL_Renderer *renderer){SDL_SetRenderDrawColor(renderer, r, g, b, a); draw_Ellipse(renderer, x, y, r_x, r_y);};
 
 };
 
 //implementation
-/* void SDL_Renderer_Ellipse(SDL_Renderer* renderer, int x, int y, int r_x, int r_y){
-        int x2, y2;
-        for (double i = 0; i < 2 * M_PI; i += 0.1) {
-            x2 = x + r_x * cos(i); 
-            y2 = y + r_y * sin(i);
-        SDL_RenderDrawLine(renderer, x, y, x2, y2);
-    }
-} */
-
-template <typename T>
-void Ellipse<T>::draw_Ellipse(SDL_Renderer* renderer, T x, T y, T r_x, T r_y){
+/* 
+void Ellipse::draw_Ellipse(SDL_Renderer* renderer, int x, int y, int r_x, int r_y){
     int x2, y2;
     for (double i = 0; i < 2 * M_PI; i += 0.1) {
         x2 = x + r_x * cos(i); 
         y2 = y + r_y * sin(i);
     SDL_RenderDrawLine(renderer, x, y, x2, y2);
     }
-}
+} */
  
 
 

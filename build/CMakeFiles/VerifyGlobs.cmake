@@ -4,6 +4,7 @@
 # SOURCES_FILES at CMakeLists.txt:58 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/fady/IMAC2/Game_elliptique/src/*")
 set(OLD_GLOB
+  "/home/fady/IMAC2/Game_elliptique/src/Game.h"
   "/home/fady/IMAC2/Game_elliptique/src/SDL2_gfxPrimitives.c"
   "/home/fady/IMAC2/Game_elliptique/src/SDL2_gfxPrimitives.h"
   "/home/fady/IMAC2/Game_elliptique/src/application_ui.cpp"
